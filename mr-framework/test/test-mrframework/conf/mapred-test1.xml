@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<properties>
+
+<property>
+	<name>mapred.job.name</name>
+	<value>test1</value>
+</property>
+
+<property>
+	<name>mapred.reduce.tasks</name>
+	<value>10</value>
+</property>
+
+<property>
+	<name>mapred.job.priority</name>
+	<value>VERY_HIGH</value>
+</property>
+
+<property>
+	<name>mapred.reduce.slowstart.completed.maps</name>
+	<value>1.0</value>
+</property>
+
+<property>
+    <name>stream.num.map.output.key.fields</name>
+	<value>1</value>
+</property>
+
+</properties>
+
+
+

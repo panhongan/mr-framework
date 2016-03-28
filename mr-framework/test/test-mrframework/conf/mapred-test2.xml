@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<properties>
+
+<property>
+	<name>mapred.job.name</name>
+	<value>test2</value>
+</property>
+
+<property>
+	<name>mapred.reduce.tasks</name>
+	<value>10</value>
+</property>
+
+<property>
+	<name>mapred.job.priority</name>
+	<value>VERY_HIGH</value>
+</property>
+
+<property>
+	<name>mapred.reduce.slowstart.completed.maps</name>
+	<value>1.0</value>
+</property>
+
+<property>
+	<name>stream.num.reduce.output.key.fields</name>
+	<value>4</value>
+</property>
+
+<property>
+        <name>num.key.fields.for.partition</name>
+        <value>2</value>
+</property>
+
+
+<property>
+        <name>mapred.line.input.format.linespermap</name>
+        <value>2</value>
+</property>
+
+
+</properties>
+
