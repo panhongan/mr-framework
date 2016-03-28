@@ -788,8 +788,8 @@ function parse_job_config_file()
 {
  	local job_config_file=$1
 
-	${JAVA_HOME}/bin/java -Djava.ext.dirs=${MRFRAMEWORK_LIB_PATH} -classpath HadoopExt.jar \
-		com.cmcm.hadoop.mapred.xml.MapReduceTaskXmlParser ${job_config_file}
+	${JAVA_HOME}/bin/java -Djava.ext.dirs=${MRFRAMEWORK_LIB_PATH} \
+		com.github.panhongan.util.hadoop.MapReduceTaskXmlParser ${job_config_file}
  
  	return 0
 }
