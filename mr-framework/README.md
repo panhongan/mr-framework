@@ -4,14 +4,14 @@ hadoop streaming job scheduler framework
 ##################################################################  
 mr-framework框架部署环境配置:  
 
-* conf/mrframework.conf  
+conf/mrframework.conf  
 [1] JAVA_HOME  
   
-* conf/hadoop.conf  
+conf/hadoop.conf  
 [1] HADOOP_BIN  
 [2] HADOOP_STREAMING_JAR_PATH  
 
-* conf/protect.conf  
+conf/protect.conf  
 配置待保护的集群目录  
 ###################################################################  
   
