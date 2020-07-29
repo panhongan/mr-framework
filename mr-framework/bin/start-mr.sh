@@ -8,7 +8,7 @@ function prepare()
 
 	source ${NEW_WORK_DIR}/../conf/mrframework.conf
 	source ${MRFRAMEWORK_CONF_PATH}/hadoop.conf
-	source ${MRFRAMEWORK_BIN_PATH}/shell-utils.sh
+	source ${MRFRAMEWORK_BIN_PATH}/utils.sh
 	source ${MRFRAMEWORK_BIN_PATH}/task.sh
 
 	mkdir -p ${MRFRAMEWORK_DATA_PATH}
@@ -41,7 +41,7 @@ function check_env()
 
 function usage()
 {
-	echo "Usage: sh -x start.sh <framework_file> [ -b [<breakpoint_task>] ]" >&2
+	echo "Usage: sh -x start-mr.sh <user_framework_file> [ -b [<breakpoint_task>] ]" >&2
 	return 0
 }
 
