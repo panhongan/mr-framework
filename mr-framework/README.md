@@ -25,4 +25,3 @@ mr-framework框架部署环境配置:
 应用接入: sh -x mr-framework/bin/start-mr.sh <user_framework_conf_file> [-b [<breakpoint_task>]]
 参考示例：demo/bin/start.sh
 
-
